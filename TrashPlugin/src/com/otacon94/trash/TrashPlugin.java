@@ -2,7 +2,6 @@ package com.otacon94.trash;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.otacon94.listeners.CraftingListener;
 import com.otacon94.listeners.TrashListener;
 
 
