@@ -1,0 +1,17 @@
+name: TrashPlugin
+main: com.otacon94.trash.TrashPlugin
+version: 1.0
+author: Otacon94
+commands:
+   cestino:
+     description: Delete useless items.
+   trash:
+     description: Delete useless items.
+permissions:
+   trashplugin.*:
+     description: Gives access to all Trash commands
+     children:
+       trashplugin.use: true
+   trashplugin.use:
+     description: Allows you to use search command
+     default: op
