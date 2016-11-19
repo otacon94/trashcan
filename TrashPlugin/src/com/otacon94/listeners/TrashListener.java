@@ -17,7 +17,7 @@ public class TrashListener implements CommandExecutor  {
 		}
 		Player player = (Player) sender;
 		if( player.hasPermission("trashplugin.use") ){
-			Inventory inventory = Bukkit.createInventory(player, 36, "Cestino");              
+			Inventory inventory = Bukkit.createInventory(player, 36, "Trashcan");              
 			player.openInventory(inventory);
 			return true;
 		}
