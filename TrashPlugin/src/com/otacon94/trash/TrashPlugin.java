@@ -7,14 +7,12 @@ import com.otacon94.listeners.TrashListener;
 
 public class TrashPlugin extends JavaPlugin {
 
-	private static final String COMMAND1 = "cestino";
-	private static final String COMMAND2 = "trash";
+	private static final String COMMAND1 = "trash";
 	
 	@Override
 	public void onEnable() {
 		getLogger().info("OtaconTrashPlugin is now Enabled");
 		getCommand(COMMAND1).setExecutor(new TrashListener());
-		getCommand(COMMAND2).setExecutor(new TrashListener());
 	}
 	
 	
