@@ -3,8 +3,6 @@ main: com.otacon94.trash.TrashPlugin
 version: 1.0
 author: Otacon94
 commands:
-   cestino:
-     description: Delete useless items.
    trash:
      description: Delete useless items.
 permissions:
